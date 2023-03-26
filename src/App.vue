@@ -12,7 +12,7 @@
 
   <div class="absolute bottom-0 w-full">
     <footer class="container">
-      <h3 class="text-xs pb-2 text-center">Made with ❤️</h3>
+      <h3 class="text-xs pb-2 text-center">Made with ❤️ by Aimen</h3>
     </footer>
   </div>
 </div>
