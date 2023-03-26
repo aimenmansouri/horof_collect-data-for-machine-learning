@@ -153,12 +153,12 @@ import { v4 as uuidv4 } from 'uuid';
       context.lineJoin = "round";
       context.lineCap = "round";
   
-      // Mouse event listeners
+      // Mouse event 
       canvas.addEventListener("mousedown", startDrawing);
       canvas.addEventListener("mousemove", drawLine);
       canvas.addEventListener("mouseup", endDrawing);
   
-      // Touch event listeners
+      // Touch event 
       canvas.addEventListener("touchstart", startDrawing);
       canvas.addEventListener("touchmove", drawLine);
       canvas.addEventListener("touchend", endDrawing);
