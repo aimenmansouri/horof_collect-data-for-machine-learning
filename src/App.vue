@@ -8,6 +8,7 @@
       <br />
       <span class="text-lg">Thank you for your contribution</span>
     </div>
+
     <main>
       <startPage v-if="!appStarted" @startApp="startApp" />
       <drawingPage
