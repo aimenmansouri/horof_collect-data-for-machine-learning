@@ -60,14 +60,15 @@ import { getStorage, ref, uploadBytes } from "firebase/storage";
 import { getAnalytics } from "firebase/analytics";
 import { v4 as uuidv4 } from "uuid";
 
+// replace with your firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyA9OGGwxGYCr4OLsWuQHLiT_V3Uv3H2ZdM",
-  authDomain: "horof-4b898.firebaseapp.com",
-  projectId: "horof-4b898",
-  storageBucket: "horof-4b898.appspot.com",
-  messagingSenderId: "442474958455",
-  appId: "1:442474958455:web:d74d76c540234c23888072",
-  measurementId: "G-1XD3HHGZJ3",
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "",
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
